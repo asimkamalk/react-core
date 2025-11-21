@@ -60,11 +60,19 @@ function App() {
             desc={arrayOfObj[2].desc}
           />
         </ul> */}
+
         <ul>
+          <CoreConcept {...arrayOfObj[0]} />
+          <CoreConcept {...arrayOfObj[1]} />
+          <CoreConcept {...arrayOfObj[2]} />
+          <CoreConcept {...arrayOfObj[3]} />
+        </ul>
+
+        {/* <ul>
           {arrayOfObj.map((item) => (
             <CoreConcept key={item.title} {...item} />
           ))}
-        </ul>
+        </ul> */}
       </section>
     </div>
   );
