@@ -1,6 +1,7 @@
 import reactCore from "./assets/react-core-concepts.png";
 import jsxImg from "./assets/jsx-ui.png";
 import stateImg from "./assets/state-mgmt.png";
+import imgConfig from "./assets/config.png";
 
 const arrayOfObj = [
   {
@@ -17,6 +18,11 @@ const arrayOfObj = [
     img: stateImg,
     title: "State Management",
     desc: "React also offers state management features.",
+  },
+  {
+    img: imgConfig,
+    title: "Example Title",
+    desc: "Example desc",
   },
 ];
 
